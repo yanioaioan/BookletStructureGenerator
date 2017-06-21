@@ -45,11 +45,11 @@ def assure_path_exists(path):
 
 
 
-excelFile=raw_input("Please Give the absolute path to the excel file: such as '/home/yioannidis/Downloads/BookletStructureGenerator/excel/DegreeShow2017.xlsx'")
-photosPath=raw_input("Please Give the absolute path to the photos: such as '/home/yioannidis/Downloads/BookletStructureGenerator/photos/'")
+excelFile=raw_input("Please Give the absolute path to the excel file: such as '/public/bin/yanScripts/excel/DegreeShow2017.xlsx'")
+photosPath=raw_input("Please Give the absolute path to the photos: such as '/public/bin/yanScripts/photos'")
 
-#excelFile="/home/yioannidis/Downloads/BookletStructureGenerator/excel/DegreeShow2017.xlsx"
-#photosPath="/home/yioannidis/Downloads/BookletStructureGenerator/photos/"
+excelFile="/public/bin/yanScripts/excel/DegreeShow2017.xlsx"
+photosPath="/public/bin/yanScripts/photos"
 
 df = pandas.read_excel(open(excelFile,'rb'), sheetname='Sheet1')
 #print the column names
@@ -199,7 +199,7 @@ for row in sumbissions:#each row
       for file in filesMatched:
 
           #print localImages
-          imagepath=photosPath+file
+          imagepath=photosPath+"/"+file
           #print imagepath
           shutil.copy2(imagepath, localImages)
 
