@@ -29,8 +29,9 @@ def isNaN(num):
 
 def assure_path_exists(path):
         dir = os.path.dirname(path)
-        if not os.path.exists(dir):#if not there - create it
-                os.makedirs(dir)
+        print dir
+        if not os.path.exists(path):#if not there - create it
+                os.makedirs(path)
                 return True
         if os.path.exists(path):#if there - delete first and then create it
             print "PATH already exists: %s "%(path)
@@ -84,6 +85,15 @@ cwd = os.getcwd()
 outterStudentsFolder=cwd+"/studentsFolder"
 assure_path_exists(outterStudentsFolder)
 
+groupsStudentsFolder=outterStudentsFolder+"/_____GROUPS_____"
+assure_path_exists(groupsStudentsFolder)
+print groupsStudentsFolder
+
+individualsStudentsFolder=outterStudentsFolder+"/_____INDIVIDUALS_____"
+assure_path_exists(individualsStudentsFolder)
+print individualsStudentsFolder
+
+
 import unicodedata
 
 for row in sumbissions:#each row
@@ -123,19 +133,51 @@ for row in sumbissions:#each row
     print timestamp,name,inumber,email,phone,url,affiliation,projectname,description,skills,software
     #name,inumber,email,phone,url,affiliation,projectname,description,skills,software = "","","","","","","","","",""
 
-    #now for this row create a folder in the following format ("name - projectname")
-    studentFoldername="/%s-%s/"%(name,projectname)
-    studentFoldername=str(studentFoldername)
-    print studentFoldername
+    #now for this row create a folder in the following format ("name - projectname") if it's an individual project otherwise,
+    #create a folder in the following format ("projectname") and under this one create a folder in the following format ("name") for each of the members of the group
+    studentFoldername=""
     #cwd = os.getcwd()
-    studentFoldername=outterStudentsFolder+studentFoldername
-    print studentFoldername
-    studnetFolderCreatedSucessfully=assure_path_exists(studentFoldername)
 
+    #dive into either Groups or Individual Folder depending on the specified affiliation
+    affiliationFolderChosen=""
+    if not isNaN(affiliation):
+        affiliation = ((affiliation)).encode('utf-8')
+
+        if affiliation == "group":
+          os.chdir(groupsStudentsFolder)
+          affiliationFolderChosen = os.getcwd()
+
+          #list individual folders each group AND in there.. for each student
+          groupProjectFoldername="/%s/"%(projectname)
+          studentFoldername="%s/"%(name)
+          studentFoldername=str(groupProjectFoldername+studentFoldername)
+
+          print studentFoldername
+
+
+        elif affiliation == "individual":
+
+          #list individual folders for each student
+          studentFoldername="/%s-%s/"%(name,projectname)
+          studentFoldername=str(studentFoldername)
+          print studentFoldername
+
+          os.chdir(individualsStudentsFolder)
+          affiliationFolderChosen = os.getcwd()
+
+    print affiliationFolderChosen+studentFoldername
+
+    #update studentFoldername
+    studentFoldername=affiliationFolderChosen+studentFoldername#outterStudentsFolder+studentFoldername
+    print studentFoldername
+
+    studnetFolderCreatedSucessfully=assure_path_exists(studentFoldername)#studentFoldername
 
     #then for this foldername create a description txt file of the following format ("name - inumber")
     if studnetFolderCreatedSucessfully:
 
+
+      #dive into studentFoldername
       os.chdir(studentFoldername)
       cwd = os.getcwd()
       print cwd
@@ -150,7 +192,7 @@ for row in sumbissions:#each row
       if not isNaN(email):
         file.write("%r\n"%(email))
       if not isNaN(phone):
-        file.write("%r\n"%(phone))
+        file.write("%r\n\n"%(phone))
       if not isNaN(url):
         file.write("%r\n\n"%(url))
       if not isNaN(affiliation):
