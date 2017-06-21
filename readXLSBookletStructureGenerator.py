@@ -1,4 +1,4 @@
-import pandas,os
+import pandas,os,re
 import shutil
 
 #! /usr/bin/bash
@@ -44,9 +44,13 @@ def assure_path_exists(path):
 
 
 
-excelFile='excel/DegreeShow2017.xlsx'
 
 excelFile=raw_input("Please Give the absolute path to the excel file: such as '/home/yioannidis/Downloads/BookletStructureGenerator/excel/DegreeShow2017.xlsx'")
+photosPath=raw_input("Please Give the absolute path to the photos: such as '/home/yioannidis/Downloads/BookletStructureGenerator/photos/'")
+
+#excelFile="/home/yioannidis/Downloads/BookletStructureGenerator/excel/DegreeShow2017.xlsx"
+#photosPath="/home/yioannidis/Downloads/BookletStructureGenerator/photos/"
+
 df = pandas.read_excel(open(excelFile,'rb'), sheetname='Sheet1')
 #print the column names
 #print df.columns
@@ -177,10 +181,30 @@ for row in sumbissions:#each row
     if studnetFolderCreatedSucessfully:
 
 
+
       #dive into studentFoldername
       os.chdir(studentFoldername)
       cwd = os.getcwd()
       print cwd
+
+      #create local images under each person
+      localImages=studentFoldername+"images"
+      assure_path_exists(localImages)
+      #print localImages
+
+      #search, find & copy inumber-related image to pre-created local folder named 'images'
+      filesMatched = [f for f in os.listdir(photosPath) if re.match(r'.*'+str(inumber)+'.*', f)]
+      print filesMatched
+
+      for file in filesMatched:
+
+          #print localImages
+          imagepath=photosPath+file
+          #print imagepath
+          shutil.copy2(imagepath, localImages)
+
+
+
 
       studentFileDescriptionName="%s-%s.txt"%(name,inumber)
 
