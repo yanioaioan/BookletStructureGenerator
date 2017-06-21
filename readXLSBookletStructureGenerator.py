@@ -84,14 +84,47 @@ cwd = os.getcwd()
 outterStudentsFolder=cwd+"/studentsFolder"
 assure_path_exists(outterStudentsFolder)
 
+import unicodedata
+
 for row in sumbissions:#each row
     #for rowElement in row:#individual elements of each row
     timestamp,name,inumber,email,phone,url,affiliation,projectname,description,skills,software = row[0],row[1],row[2],row[3],row[4],row[5],row[6],row[7],row[8],row[9],row[10]
+
+
+    #encoding
+    timestamp = ((timestamp)).encode('utf-8')
+    if not isNaN(name):
+      name = ((name)).encode('utf-8')
+    if not isNaN(inumber):
+        inumber = ((inumber)).encode('utf-8')
+    if not isNaN(email):
+        email = ((email)).encode('utf-8')
+    if not isNaN(phone):
+        phone = (str(phone)).encode('utf-8')
+    if not isNaN(url):
+        url = (str(url)).encode('utf-8')
+    if not isNaN(affiliation):
+        affiliation = ((affiliation)).encode('utf-8')
+    if not isNaN(projectname):
+        projectname = ((projectname)).encode('utf-8')
+    if not isNaN(description):
+        #description = (str(description)).encode('utf-8')
+
+        print "DESCRIPTION=",description
+
+        #It's important to notice that using the ignore option is dangerous because it silently drops any unicode(and internationalization) support from the code that uses it, as seen here:
+        description=unicodedata.normalize('NFKD', description).encode('ascii','ignore')
+
+    if not isNaN(skills):
+        skills = (str(skills)).encode('utf-8')
+    if not isNaN(software):
+        software = ((software)).encode('utf-8')
+
     print timestamp,name,inumber,email,phone,url,affiliation,projectname,description,skills,software
     #name,inumber,email,phone,url,affiliation,projectname,description,skills,software = "","","","","","","","","",""
 
     #now for this row create a folder in the following format ("name - projectname")
-    studentFoldername="/%r-%r/"%(name,projectname)
+    studentFoldername="/%s-%s/"%(name,projectname)
     studentFoldername=str(studentFoldername)
     print studentFoldername
     #cwd = os.getcwd()
