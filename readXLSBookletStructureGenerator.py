@@ -1,3 +1,6 @@
+import pandas,os
+import shutil
+
 #! /usr/bin/bash
 #title           :readXLSBookletStructureGenerator
 #description     :This script is a booklet folder structure generator, used for undergraduate and postgraduate degree showreel booklets
@@ -20,9 +23,6 @@
 #6)run the following command:  `./readXLSBookletStructureGenerator`
 
 
-import pandas,os
-import shutil
-
 
 def isNaN(num):
     return num != num
@@ -44,8 +44,8 @@ def assure_path_exists(path):
 
 
 excelFile='excel/DegreeShow2017.xlsx'
-print "Please Give the absolute path to the excel file: such as '/home/yioannidis/Downloads/BookletStructureGenerator/excel/DegreeShow2017.xlsx'"
-read excelFile
+
+excelFile=raw_input("Please Give the absolute path to the excel file: such as '/home/yioannidis/Downloads/BookletStructureGenerator/excel/DegreeShow2017.xlsx'")
 df = pandas.read_excel(open(excelFile,'rb'), sheetname='Sheet1')
 #print the column names
 #print df.columns
