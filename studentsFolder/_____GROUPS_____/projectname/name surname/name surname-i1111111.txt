@@ -1,0 +1,15 @@
+'name surname'	'i1111111'
+
+'testmail@gmail.com'
+'0'
+
+'www.google.com'
+
+'group'
+'projectname'
+
+Synopsis:
+'This project is about...'
+
+'Lighting, Shading, Pipeline, Gameplay Programmer'
+'UE4, Maya, Python'
