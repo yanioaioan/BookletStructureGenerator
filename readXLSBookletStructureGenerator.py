@@ -86,14 +86,14 @@ for i in df.index:
 
 #create outter folder named "studentsFolders"
 cwd = os.getcwd()
-outterStudentsFolder=cwd+"/studentsFolder"
+outterStudentsFolder=os.path.join(cwd,"studentsFolder")
 assure_path_exists(outterStudentsFolder)
 
-groupsStudentsFolder=outterStudentsFolder+"/_____GROUPS_____"
+groupsStudentsFolder=os.path.join(outterStudentsFolder,"_____GROUPS_____")
 assure_path_exists(groupsStudentsFolder)
 print groupsStudentsFolder
 
-individualsStudentsFolder=outterStudentsFolder+"/_____INDIVIDUALS_____"
+individualsStudentsFolder=os.path.join(outterStudentsFolder,"_____INDIVIDUALS_____")
 assure_path_exists(individualsStudentsFolder)
 print individualsStudentsFolder
 
@@ -152,9 +152,9 @@ for row in sumbissions:#each row
           affiliationFolderChosen = os.getcwd()
 
           #list individual folders each group AND in there.. for each student
-          groupProjectFoldername="/%s/"%(projectname)
-          studentFoldername="%s/"%(name)
-          studentFoldername=str(groupProjectFoldername+studentFoldername)
+          groupProjectFoldername="%s"%(projectname)
+          studentFoldername="%s"%(name)
+          studentFoldername=os.path.join(groupProjectFoldername,studentFoldername)
 
           print studentFoldername
 
@@ -162,17 +162,17 @@ for row in sumbissions:#each row
         elif affiliation == "individual":
 
           #list individual folders for each student
-          studentFoldername="/%s-%s/"%(name,projectname)
+          studentFoldername="%s-%s"%(name,projectname)
           studentFoldername=str(studentFoldername)
           print studentFoldername
 
           os.chdir(individualsStudentsFolder)
           affiliationFolderChosen = os.getcwd()
 
-    print affiliationFolderChosen+studentFoldername
+    print os.path.join(affiliationFolderChosen,studentFoldername)
 
     #update studentFoldername
-    studentFoldername=affiliationFolderChosen+studentFoldername#outterStudentsFolder+studentFoldername
+    studentFoldername=os.path.join(affiliationFolderChosen,studentFoldername)#outterStudentsFolder+studentFoldername
     print studentFoldername
 
     studnetFolderCreatedSucessfully=assure_path_exists(studentFoldername)#studentFoldername
@@ -188,7 +188,7 @@ for row in sumbissions:#each row
       print cwd
 
       #create local images under each person
-      localImages=studentFoldername+"images"
+      localImages=os.path.join(studentFoldername,"images")
       assure_path_exists(localImages)
       #print localImages
 
