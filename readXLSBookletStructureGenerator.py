@@ -48,8 +48,8 @@ def assure_path_exists(path):
 excelFile=raw_input("Please Give the absolute path to the excel file: such as '/public/bin/yanScripts/excel/DegreeShow2017.xlsx'")
 photosPath=raw_input("Please Give the absolute path to the photos: such as '/public/bin/yanScripts/photos'")
 
-excelFile="/public/bin/yanScripts/excel/DegreeShow2017.xlsx"
-photosPath="/public/bin/yanScripts/photos"
+#excelFile="/public/bin/yanScripts/excel/DegreeShow2017.xlsx"
+#photosPath="/public/bin/yanScripts/photos"
 
 df = pandas.read_excel(open(excelFile,'rb'), sheetname='Sheet1')
 #print the column names
@@ -199,8 +199,9 @@ for row in sumbissions:#each row
       for file in filesMatched:
 
           #print localImages
-          imagepath=photosPath+"/"+file
-          #print imagepath
+          imagepath=dir = os.path.join(os.path.abspath(photosPath),file)
+
+          print imagepath
           shutil.copy2(imagepath, localImages)
 
 
@@ -212,23 +213,23 @@ for row in sumbissions:#each row
 
 
       if not isNaN(name) and not isNaN(inumber):
-        file.write("%r\t%r\n\n"%(name,inumber))
+        file.write("name: %r\t%r\n\n"%(name,inumber))
       if not isNaN(email):
-        file.write("%r\n"%(email))
+        file.write("email: %r\n"%(email))
       if not isNaN(phone):
-        file.write("%r\n\n"%(phone))
+        file.write("phone: %r\n\n"%(phone))
       if not isNaN(url):
-        file.write("%r\n\n"%(url))
+        file.write("url: %r\n\n"%(url))
       if not isNaN(affiliation):
-        file.write("%r\n"%(affiliation))
+        file.write("affiliation: %r\n"%(affiliation))
       if not isNaN(projectname):
-        file.write("%r\n\n"%(projectname))
+        file.write("projectname: %r\n\n"%(projectname))
       if not isNaN(description):
-        file.write("Synopsis:\n%r\n\n"%(description))
+        file.write("description: \n%r\n\n"%(description))
       if not isNaN(skills):
-        file.write("%r\n"%(skills))
+        file.write("skills :%r\n"%(skills))
       if not isNaN(software):
-        file.write("%r\n"%(software))
+        file.write("software: %r\n"%(software))
       file.close()
 
 
