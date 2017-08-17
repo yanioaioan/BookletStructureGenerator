@@ -1,4 +1,13 @@
-import pandas,os,re
+try:
+	import pandas,os,re
+except:
+	print 'The following python libraries need to be installed, so if you have admin rights under linux \n \
+	open a terminal and execute the following commands:'
+	print 'sudo easy_install pip'
+	print 'sudo pip install pandas'	
+	print 'sudo pip install xlrd'
+	exit(0)
+
 import shutil
 
 #! /usr/bin/bash
@@ -7,7 +16,7 @@ import shutil
 #author		 :Ioannis Ioannidis
 #date            :21/06/2017
 #version         :1.0
-#usage           :./readXLSBookletStructureGenerator
+#usage           :python readXLSBookletStructureGenerator
 #                : you need a .xlsl file to read which is provided from the user
 #date modified   :--/--/----
 #==============================================================================
