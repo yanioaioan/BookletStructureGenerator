@@ -1,0 +1,15 @@
+name: 'yannis'	'i1234567'
+
+email: 'yan@hotmail.com'
+phone: '7123456789'
+
+url: 'https://www.google.com'
+
+affiliation: 'As part of a group'
+projectname: 'Addiction'
+
+description: 
+'"""My project is a short live action film, which showcases the  possible hallucinogenic experiences of a drug addict. Also. how an unbreakable loop of addiction might be created as a result of drug usage. During the project I mainly focused on creating believable visual effects, which would then had to transition to the abstract hallucinogenic sequence made out of constantly changing fractal geometry.\n""\n"'
+
+skills :'"""Animation, Rigging, Compositing\n""\n"'
+software: '"""Nuke, Maya, Mari, Programming\n""\n"'
