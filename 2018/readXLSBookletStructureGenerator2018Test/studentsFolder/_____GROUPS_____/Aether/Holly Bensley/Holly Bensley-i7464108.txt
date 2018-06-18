@@ -1,0 +1,15 @@
+name: 'Holly Bensley'	'i7464108'
+
+email: 'HollyBensleynk@gmail.com'
+phone: '7939962174'
+
+url: 'www.linkedin.com/in/holly-bensley'
+
+affiliation: 'As part of a group'
+projectname: 'Aether'
+
+description: 
+"An astronaut attempts to cure his crewmates of a deadly alien pathogen contracted during a mission to one of Saturn's moons. The on-board AI is faced with a moral dilema - destroy the dangerous organism, and the infected along with it, or risk contagion of the human race."
+
+skills :'Modelling, Texturing, Lighting, LookDev, Compositing'
+software: 'Maya, Substance Painter and Designer, ZBrush, Marvellous Designer, Vray, Nuke'

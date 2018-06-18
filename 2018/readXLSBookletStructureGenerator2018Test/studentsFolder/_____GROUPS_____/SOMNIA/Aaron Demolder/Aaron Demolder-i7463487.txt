@@ -1,0 +1,15 @@
+name: 'Aaron Demolder'	'i7463487'
+
+email: 'hello@aarondemolder.com'
+phone: '7765387284'
+
+url: 'aarondemolder.com'
+
+affiliation: 'As part of a group'
+projectname: 'SOMNIA'
+
+description: 
+'Somnia is an abstract music video created in full CG, with a motion captured dancer. A headless lady moves through her repetitious daily life as the surrounding world comes alive around her. With heavy influence from contemporary artists such as Bonobo and Jon Hopkins. Through a combination of subtle FX and realistic environments we created a believable world and an engaging sequence - pushing what the three of us could produce in both quality and quantity.'
+
+skills :'Generalist, FX, Lighting, Rendering.'
+software: 'Maya, Motionbuilder, Houdini, Substance, Photoshop, Redshift, Nuke, Davinci Resolve'

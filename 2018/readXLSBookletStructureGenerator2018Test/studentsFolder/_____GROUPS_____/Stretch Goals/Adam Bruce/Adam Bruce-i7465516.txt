@@ -1,0 +1,13 @@
+name: 'Adam Bruce'	'i7465516'
+
+email: 'adamroybruce@gmail.com'
+url: 'vimeo.com/adamroybruce'
+
+affiliation: 'As part of a group'
+projectname: 'Stretch Goals'
+
+description: 
+'Stretch Goals is a 3D platformer in the style of classic Nintendo 64 titles, developed in Unreal, following the adventures of an alien who has crash-landed on a foreign planet. Collect goo throughout the level to increase your jumping capabilities, enabling you to reach new heights, find the missing pieces of your ship, and fly back home.'
+
+skills :'Level Design, Modelling, Rigging and Animation'
+software: 'Maya, Unreal and Zbrush'

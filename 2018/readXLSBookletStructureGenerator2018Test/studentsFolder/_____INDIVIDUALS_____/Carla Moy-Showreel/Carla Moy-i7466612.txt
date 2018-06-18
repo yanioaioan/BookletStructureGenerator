@@ -1,0 +1,13 @@
+name: 'Carla Moy'	'i7466612'
+
+email: 'carlamoy@hotmail.co.uk'
+phone: '7398495044'
+
+affiliation: 'As an individual'
+projectname: 'Showreel'
+
+description: 
+'My specialism is in rigging and writing tools for animation and automating tasks. I have a modular auto rigging system developed using metadata and networks as well as a facial rigging system with a UI. I have implemented geodesic voxel binding using openVDB spheres as influence objects held together with spring constraints. Muscle rigs have also been created using Maya muscle and NCloth. There are also examples of rigs created in Maya from my auto rig systems and extra tools.'
+
+skills :'Rigging, Programming, Research & Development'
+software: 'Maya, Houdini, Nuke'

@@ -1,0 +1,11 @@
+name: 'Anne Mette Carstensen'	'i7624559'
+
+email: 'metzeart@gmail.com'
+affiliation: 'As part of a group'
+projectname: 'Zoya'
+
+description: 
+"Zoya (African meaning: A bargain) is a narrative exposing the ivory trade and the emotional effects of this tragic crime upon it's victims. Zoya is a baby elephant who loses her mother to poaching. We follow her journey of grief as she becomes an orphan.\nOur animation features two stylised environments reflecting two different cultures. We want our piece to create an emotional and memorable response to the issue. We were inspired by The David Sheldrick Wildlife Trust, an orphanage for young elephants and rhinos in Kenya.\n"
+
+skills :'Modelling, Character Design, Texturing, Lighting, Rendering, Compositing'
+software: 'Maya, Substance Painter, Photoshop, Zbrush, Nuke, Premier'

@@ -1,0 +1,15 @@
+name: 'Miles Shacklady'	'i7425727'
+
+email: 'milesshacklady@googlemail.com'
+phone: '0796 470 1442'
+
+url: 'www.milesshacklady.wix.com/miles'
+
+affiliation: 'As part of a group'
+projectname: 'spotlight'
+
+description: 
+"Spotlight is a short music video depicting the journey of the character's life through dance in the form of abstract effects. Throughout the dance, we cycle through the defining moments that form her character, initially depicted through CG and live action elements that evolve into a series of abstract effects."
+
+skills :'FX, Lighting, Cinematography, Compositing, Rendering'
+software: 'Houdini, Nuke, Photoshop, PTGui, Agisoft PhotoScan'

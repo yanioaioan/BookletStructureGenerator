@@ -1,0 +1,11 @@
+name: 'Andrea Gismondi'	'i7630645'
+
+email: 'andrea.gismondi91@gmail.com'
+affiliation: 'As part of a group'
+projectname: "God's Faces - The Game"
+
+description: 
+'  Inspired by many strategic games of the century, broad from tabletop into digital and back on the table. Behold the brain-tingling augmented reality game, where you, as the god of elementals, bring destruction and chaos to the cities of unknown lands. \nOur game - is an experiment with old, but proven ideas, combined with new technologies, made to bring players back to the time when games demanded critical and strategical thinking. While moving through a hexagonal game map, the player has to manage his economy and plan his path, in a way, so he can break defences of enemies by using elemental powers gathered along his path. Combining aesthetics of a chessboard or tabletop games complimented with a high level of interactivity, our aim was to create something new and unexpected. '
+
+skills :'Concept Artist, Character Artist, Environment Artist, Game Design, Modelling'
+software: 'Maya, Photoshop, After Effects'

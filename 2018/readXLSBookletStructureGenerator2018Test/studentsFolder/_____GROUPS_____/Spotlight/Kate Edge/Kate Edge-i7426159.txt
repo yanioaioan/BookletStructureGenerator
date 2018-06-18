@@ -1,0 +1,13 @@
+name: 'Kate Edge'	'i7426159'
+
+email: 'kateedge@hotmail.com'
+phone: '7976705381'
+
+affiliation: 'As part of a group'
+projectname: 'Spotlight'
+
+description: 
+"Spotlight is a short music video depicting the journey of the character's life through dance in the form of abstract effects. Throughout the dance, we cycle through the defining moments that form her character, initially depicted through CG and live action elements that evolve into a series of abstract effects."
+
+skills :'FX, Rigging, Motion Capture, Tracking '
+software: 'Houdini, Maya, Cortex, PFTrack, Motion Builder'

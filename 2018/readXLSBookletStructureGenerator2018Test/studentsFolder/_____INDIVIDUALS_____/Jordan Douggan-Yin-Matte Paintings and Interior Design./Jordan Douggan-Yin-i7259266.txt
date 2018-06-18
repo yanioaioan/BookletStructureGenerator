@@ -1,0 +1,15 @@
+name: 'Jordan Douggan-Yin'	'i7259266'
+
+email: 'Jcd-y93@hotmail.com'
+phone: '7415886972'
+
+url: 'https://douggan.wixsite.com/yinj'
+
+affiliation: 'As an individual'
+projectname: 'Matte Paintings and Interior Design.'
+
+description: 
+'I have created Matte Paintings where I was inspired by surrealism and influenced by art of a fantastical nature; My goal was to create my own images that held these qualities but that can also be featured in film as backgrounds.\nIn addition,  I have created an office space in which the aim was to design an interior space, where realistic renders should be the final result, Maya/Vray and Photoshop in post; helped achieve this result.\nWith motivation and hard work I believe I was able to push my art to a higher standard. \n'
+
+skills :'3D Modelling, Texturing, Lighting, Compositing, Look Dev.'
+software: 'Adobe Photoshop & After Effects, Autodesk Maya.'

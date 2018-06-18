@@ -1,0 +1,15 @@
+name: 'Neerav Nagda'	'i7421407'
+
+email: 'neerav24@hotmail.com'
+phone: '7711223963'
+
+url: 'https://neeravnagda.github.io'
+
+affiliation: 'As an individual'
+projectname: "Neerav Nagda's Showreel"
+
+description: 
+'Over the past three years, I have developed and refined my skills in programming and scripting to develop increasingly more complex projects during my time at the NCCA. My projects are mainly research and development projects, in the form of standalone programs, scripts and plug-ins. The animation and VFX pipelines have many stages, so I have focused on tools for modelling and animation. My projects either implement existing research publications, reproduce tools found in existing software or produce something new.'
+
+skills :'Software Development, Scripting, Neural Networks'
+software: 'Maya, Unreal Engine'

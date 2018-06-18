@@ -1,0 +1,15 @@
+name: 'Anastasia Photiou'	'i7460443'
+
+email: 'anastasia.ph@hotmail.com'
+phone: '447923284782'
+
+url: 'https://www.anastasiaphotiou.com/'
+
+affiliation: 'As part of a group'
+projectname: 'Emotions in III Acts'
+
+description: 
+'The idea of Emotions in III Acts is derived from the observance of the correlation between colours and emotions in our day to day life. It embarks the viewer on a personal journey that involves their memories from the past, their feelings of the present and the growth in the future. The piece does not seek for a story to be told through its images, but rather it urges the evolution of the viewers personal sentiments for the duration of the piece. The piece seeks the feeling of catharsis within the viewer which is revealed in the end. Many interpretations can exist in different contexts and circumstances. The piece is for all ages, young and old, however it is mostly addressed towards young adults and adults.'
+
+skills :'PreProduction, Look Development, Compositing, Colouring'
+software: 'NukeX, Nuke, Substance Painter, Photoshop, Mantra Houdini'

@@ -1,0 +1,15 @@
+name: 'Phuong Anh Nguyen'	'i7644184'
+
+email: 'karonguyen96@gmail.com'
+phone: '07950 366422'
+
+url: 'https://vimeo.com/karonguyen'
+
+affiliation: 'As part of a group'
+projectname: 'Spaghettify'
+
+description: 
+"Spaghettify' is a 3D animated, Sci-fi/Comedy short starring Kevin, a layabout slob who lives alone in a filthy apartment. One night, when trying to reheat a spaghetti dinner, he leaves a metal fork in the microwave and subsequently rips a hole in time and space.  What follows is a hilarious, pasta filled thrill ride for all-ages. "
+
+skills :'Rigging, Scripting, R&D, Compositing, Character Design'
+software: 'Autodesk Maya, Nuke, Houdini'

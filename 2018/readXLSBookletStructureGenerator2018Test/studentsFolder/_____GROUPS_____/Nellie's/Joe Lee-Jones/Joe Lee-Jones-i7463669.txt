@@ -1,0 +1,11 @@
+name: 'Joe Lee-Jones'	'i7463669'
+
+email: 'j.l.jones013@gmail.com'
+affiliation: 'As part of a group'
+projectname: "Nellie's"
+
+description: 
+'Nellies is a two-minute-long full-CG character-driven short film. \n\nIt is a short story about James, a young depressed accountant who finds a new outlook on his life after meeting Nellie an elderly lady who runs a tiny bakery. \n\nThe narrative of the piece is based on a concept, where we found that todays society, especially in big city metropolis, more frequently forgets about the small beautiful things in life. Simultaneously, they are busy working overtime in jobs they are not passionate about. Nellies is meant to address these findings with light-hearted and sometimes comedic moments.'
+
+skills :'Lighting, Procedural Textures, Modelling, lookDev'
+software: 'Maya, Substance designer, Renderman 21, Houdini'

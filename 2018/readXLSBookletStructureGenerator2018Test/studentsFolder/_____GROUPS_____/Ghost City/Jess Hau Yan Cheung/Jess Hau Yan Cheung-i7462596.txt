@@ -1,0 +1,15 @@
+name: 'Jess Hau Yan Cheung'	'i7462596'
+
+email: 'hauyancheung@gmail.com'
+phone: '7414730267'
+
+url: 'http://hauyancheung.daportfolio.com/'
+
+affiliation: 'As part of a group'
+projectname: 'Ghost City'
+
+description: 
+'"Ghost City" is a semi-realistic environment piece which depicts atmospheric scenery, inspired by the now demolished Kowloon Walled City. Set in Hong Kong, it was once considered the most densely populated place on Earth. \n"Ghost City" leads you through the unsettling alleys, to the warmth of a  common household. This project captures that despite its lawless reputation, it was simply a home for the people. '
+
+skills :'Concept Art, Modelling, LookDev, Lighting'
+software: 'Nuke, Maya, Renderman, Photoshop, Substance Painter'

@@ -1,0 +1,15 @@
+name: 'Beth Rowe'	'i7462772'
+
+email: 'BethRoweArt@hotmail.com'
+phone: '7469216363'
+
+url: 'https://vimeo.com/bethroweart'
+
+affiliation: 'As an individual'
+projectname: 'Hide'
+
+description: 
+'Hide. A one minute short, focusing on the relationship between an imaginary monster and a child through the game of hide and seek. All while the girls impatience leads to her throwing tantrums when the monster is not in the first place she looks. Even though he remains in clear sight. This solo project, focuses on creating a character full animation piece in a flat, minimalist 2D style.'
+
+skills :'Animation, Character and Environment Design, Modelling'
+software: 'Maya, Zbrush, Nuke, Premier Pro'

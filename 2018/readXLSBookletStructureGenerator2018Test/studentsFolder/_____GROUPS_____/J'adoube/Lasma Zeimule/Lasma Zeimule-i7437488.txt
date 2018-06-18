@@ -1,0 +1,15 @@
+name: 'Lasma Zeimule'	'i7437488'
+
+email: 'lasma.zeimule@gmail.com'
+phone: '7778662158'
+
+url: 'www.linkedin.com/in/lasmazeimule'
+
+affiliation: 'As part of a group'
+projectname: "J'adoube"
+
+description: 
+'Jadoube (I adjust) Is a short emotional piece about the relationship between a father and a son through playing chess. The story deals with the issue of loss and how to overcome it through loved ones.'
+
+skills :'Pre- production, modelling, texturing, matte-painting backplate'
+software: 'Maya, Adobe Photoshop'

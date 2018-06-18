@@ -1,0 +1,15 @@
+name: 'Chereen Francis-Roberts'	'i7432891'
+
+email: 'chereenfrancis@hotmail.co.uk'
+phone: '7593749938'
+
+url: 'cfrancisroberts.wordpress.com'
+
+affiliation: 'As part of a group'
+projectname: 'Murder At The Bluebird'
+
+description: 
+'Murder At The Bluebird is a VR experience set in prohibition New Orleans. It explores the setting through the life flashing before the eyes of a murder victim. The player is taken through the lead characters final memories as he explores the circumstances leading to his death. We wanted to create an experience that was really tailored to VR, experimenting with position size and orientation of the player to immerse you fully in the narrative.'
+
+skills :'Character Design, Character Texturing, Character Modelling, Environment Design, Lighting'
+software: 'Z brush, Maya, Substance Painter, Marvelous Designer'

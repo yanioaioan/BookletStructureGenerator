@@ -1,0 +1,15 @@
+name: 'Jamie Hearing'	'i7693107'
+
+email: 'jamiehearing@gmail.com'
+phone: '7757745740'
+
+url: 'jamiehearing.com'
+
+affiliation: 'As an individual'
+projectname: 'Adrift'
+
+description: 
+'Adrift is a short VFX film I created as a solo project. The aim of the project was to create a short visual effects sequence involving a live action character within a CG environment. This comes with many challenges and is something that is frequently done in films and VFX. I chose to do this project as it provided me with the opportunity to challenge myself and solve many of the problems that occur in the VFX industry. I enjoy watching science fiction films and I find them interesting as we get to see and explore new ideas and concepts most people do not see within everyday life. Films such as: Interstellar and Gravity use visual effects to help tell their story and they are sometimes indistinguishable from what is real. These are the films that I am passionate about and it is the reason why I have chosen to create a live action short sequence based on an astronaut stranded in space.'
+
+skills :'Modelling, Texturing, LookDev,'
+software: 'Maya, Mari, Photoshop, Nuke, Marvelous Designer, V-ray, ZBrush, Substance Designer, After Effects'

@@ -1,0 +1,15 @@
+name: 'Rae Bell'	'i7468938'
+
+email: 'bellrae2@gmail.com'
+phone: '7377141305'
+
+url: 'https://vimeo.com/raebell'
+
+affiliation: 'As part of a group'
+projectname: 'The Artisan'
+
+description: 
+"The Artisan is a 45 second short, following a retired gourmet chef in his kitchen as he prepares to cook his Asian inspired dish. The piece aims to portray the sensations experienced within the kitchen environment. Using experimental effects to symbolise the smells and flavours of the ingredients as well as the Chef's synchronised movement to music to visualise the creative sensation of cooking, in an enriching way for the audience.  "
+
+skills :'Look Development, Visual Effects, Lighting, Compositing'
+software: 'Maya, Houdini, Nuke, Substance Painter, Photoshop, After Effects, Marvelous Designer'

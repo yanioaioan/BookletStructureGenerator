@@ -1,0 +1,15 @@
+name: 'Emilie Brown'	'i7438249'
+
+email: 'emiliebethann@outlook.com'
+phone: '7825444187'
+
+url: 'https://vimeo.com/user49828477'
+
+affiliation: 'As an individual'
+projectname: 'PolterHeist'
+
+description: 
+"A 3D illustration depicting the haunting of an artefact Collector who has spent his privileged life collecting mythical items and treasure. His latest addition unbeknown to him has resulted in uttermost chaos. Inspired by the likes of 'The Haunted Mansion', this was a fun take on revealing the darker sides to antique collecting through fun, silly characters and environments."
+
+skills :'Modelling , Concept Art , Character Design , LookDev, Texturing'
+software: 'Zbrush , Maya , Substance Painter , Nuke , Photoshop'

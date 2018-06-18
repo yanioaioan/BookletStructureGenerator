@@ -1,0 +1,13 @@
+name: 'Zuza Ruszecka'	'i7432368'
+
+email: 'ruszecka@gmail.com'
+url: 'ruszecka.wixsite.com/portfolio'
+
+affiliation: 'As an individual'
+projectname: 'The March'
+
+description: 
+'The March is a solo project focusing on creating a crowd simulation using existing Houdini toolkit, as well as achieving a believable snow effect using geometry-level and rendering tools. \nIt is a short video about the retreat of Napoleon\'s soldiers from a failed campaign in Russia in 1812.\nThe piece focuses on the often unseen repercussions of war, as the characters suffer not from battle wounds, but instead from the severe cold and malnutrition. "The March" explores the themes of dehumanisation, desensitisation to death and the overlooked casualties of war. The visuals create a strong contrast between the stoic and pristine calm of the snowy landscape, and the misery of the slowly moving crowd, commenting on the contemporary  as well as historic  reality.'
+
+skills :'Compositing, Houdini Technical Artist, Python Scripting'
+software: 'Houdini, Nuke, Maya, Premiere Pro'

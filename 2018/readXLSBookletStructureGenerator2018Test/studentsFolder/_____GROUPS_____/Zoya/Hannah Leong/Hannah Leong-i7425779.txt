@@ -1,0 +1,13 @@
+name: 'Hannah Leong'	'i7425779'
+
+email: 'hannah.grace.leong@gmail.com'
+phone: '7463893279'
+
+affiliation: 'As part of a group'
+projectname: 'Zoya'
+
+description: 
+"Zoya (African meaning: A bargain) is a narrative exposing the ivory trade and the emotional effects of this tragic crime upon it's victims. Zoya is a baby elephant who loses her mother to poaching. We follow her journey of grief as she becomes an orphan.\nOur animation features two stylised environments reflecting two different cultures. We want our piece to create an emotional and memorable response to the issue. We were inspired by The David Sheldrick Wildlife Trust, an orphanage for young elephants and rhinos in Kenya."
+
+skills :'Environment Design, Cinematography, Rigging, Animation'
+software: 'Maya, Photoshop, Premiere'

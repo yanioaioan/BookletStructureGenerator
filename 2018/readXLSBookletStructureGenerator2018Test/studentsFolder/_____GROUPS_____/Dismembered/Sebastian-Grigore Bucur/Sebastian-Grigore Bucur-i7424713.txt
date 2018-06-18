@@ -1,0 +1,15 @@
+name: 'Sebastian-Grigore Bucur'	'i7424713'
+
+email: 'grigoreFx@gmail.com'
+phone: '7732841549'
+
+url: 'www.sebastian-grigore.xyz'
+
+affiliation: 'As part of a group'
+projectname: 'Dismembered'
+
+description: 
+'"Dismembered" was our attempt to recreate the look and feel of a dark fantasy game, with a humorous twist. Play as "the Graverobber" as he gains the ability to swap limbs with the dead, and fights to free his new friend, "the Shadow", a world-ending evil spirit, who was sealed away for a very good reason.'
+
+skills :'Technical Arts, LookDev, Realtime Graphics, R&D, Programming'
+software: 'Unreal Engine 4, Maya, Photoshop'

@@ -1,0 +1,15 @@
+name: 'Shandis Wong'	'i7435548'
+
+email: 'shandiswhh@gmail.com'
+phone: '+447594333687'
+
+url: 'http://shandiswong.wixsite.com/beinspired'
+
+affiliation: 'As an individual'
+projectname: "Shandis Wong's showreel"
+
+description: 
+'I have developed a wide range of skills within the past few years in NCCA. I am very passionate about software development and games. My main goal is to achieve works which look visually stunning with a strong focus on ease of use. This is to abstract the high complexity of programming and scripting to the users needs. Some of my projects include convolutional neural networks, facial reconstruction, a game in Unreal Engine, and Maya tools. I get inspiration from existing works and I aim to reproduce them or to create something new out of it.'
+
+skills :'Software development, Games, Neural Network, Scripting'
+software: 'Autodesk Maya, Unreal Engine, Adobe Photoshop'

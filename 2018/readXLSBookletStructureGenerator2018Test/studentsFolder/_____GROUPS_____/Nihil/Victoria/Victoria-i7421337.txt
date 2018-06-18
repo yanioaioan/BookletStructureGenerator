@@ -1,0 +1,13 @@
+name: 'Victoria'	'i7421337'
+
+email: 'victoria.yu@hotmail.co.uk'
+phone: '7729469924'
+
+affiliation: 'As part of a group'
+projectname: 'Nihil'
+
+description: 
+"Please see Fatema Muttar's Project Description"
+
+skills :'Environment Design, Modelling, Texturing, Rigging, 2D Animation'
+software: 'Maya, Photoshop, After Effects, Substance Painter'

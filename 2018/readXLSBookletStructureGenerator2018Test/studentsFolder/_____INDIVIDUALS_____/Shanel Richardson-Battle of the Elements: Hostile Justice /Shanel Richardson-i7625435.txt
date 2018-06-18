@@ -1,0 +1,15 @@
+name: 'Shanel Richardson'	'i7625435'
+
+email: 'shanelrichardson2016@gmail.com'
+phone: '7727055270'
+
+url: 'https://www.artstation.com/shanel-richardson'
+
+affiliation: 'As an individual'
+projectname: 'Battle of the Elements: Hostile Justice '
+
+description: 
+'I embarked on this solo project to familiarise myself with Unreal Engine and in turn create something that I wanted to continue developing even after the course is finished. BOEHJ is a fantasy fighting game where you play as an Elementalist with the ability to weaken or empower your elemental foes. I wanted to challenge myself to learn what goes into making a game like this, from features such as character customisations, particle systems and the creation of simple A.I. Ive always wanted to work on games, and thus decided that one way of doing that was to make one yourself!'
+
+skills :'Generalist, Game developer, modeller.'
+software: 'Unreal Engine, Maya, zBrush'

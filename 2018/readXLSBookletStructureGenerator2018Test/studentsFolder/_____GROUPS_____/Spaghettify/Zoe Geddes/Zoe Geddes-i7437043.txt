@@ -1,0 +1,15 @@
+name: 'Zoe Geddes'	'i7437043'
+
+email: 'zoe.geddes@ntlworld.com'
+phone: '7963270265'
+
+url: 'linkedin.com/in/zoe-geddes/'
+
+affiliation: 'As part of a group'
+projectname: 'Spaghettify'
+
+description: 
+"Spaghettify' is a 3D animated, Sci-fi/Comedy short starring Kevin, a layabout slob who lives alone in a filthy apartment. One night, when trying to reheat a spaghetti dinner, he leaves a metal fork in the microwave and subsequently rips a hole in time and space.  What follows is a hilarious, pasta filled thrill ride for all-ages. "
+
+skills :'"FX","Compositing"'
+software: 'Houdini, Nuke, Maya'

@@ -1,0 +1,13 @@
+name: 'Bethany Cowper-Smith'	'i7424599'
+
+email: 'bethcowpersmith@gmail.com'
+phone: '7594435353'
+
+affiliation: 'As part of a group'
+projectname: 'Riff-Ruff'
+
+description: 
+'Riff-Ruff is a short animation focusing on a lonely, homeless robot and puppy coming together through their shared love for music. The short aims to create atmospheric visuals whilst demonstrating a heart-warming connection between the protagonists. '
+
+skills :'Animation, Lookdev'
+software: 'Autodesk maya, adobe photoshop, substance designer'

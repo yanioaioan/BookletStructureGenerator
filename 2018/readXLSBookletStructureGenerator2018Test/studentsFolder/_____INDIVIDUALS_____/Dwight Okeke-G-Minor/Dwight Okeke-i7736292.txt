@@ -1,0 +1,13 @@
+name: 'Dwight Okeke'	'i7736292'
+
+email: 'dwokeke@gmail.com'
+phone: '7950703536'
+
+affiliation: 'As an individual'
+projectname: 'G-Minor'
+
+description: 
+'G-Minor is a short film about the piano. A film in G-minor. The piece depicts a piano, in an abandoned cathedral, playing itself in the emotionally poignant key of G-minor. Inspired by the closing piano scene of Your Lie In April - an anime close to my heart. It showcases my modelling abilities, as well as my skills as a director and a composer of music.'
+
+skills :'Modelling, LookDev, Character Design'
+software: 'Maya, Photoshop, Ableton'

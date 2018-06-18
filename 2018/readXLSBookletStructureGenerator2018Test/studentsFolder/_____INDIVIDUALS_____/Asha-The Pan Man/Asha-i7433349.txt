@@ -1,0 +1,9 @@
+name: 'Asha'	'i7433349'
+
+email: 'asha.robinson15@hotmail.com'
+affiliation: 'As an individual'
+projectname: 'The Pan Man'
+
+description: 
+'3D illustration about a man playing a steel-pan instrument.The different components such as statue  esqe character, the church environment and the abstract shapes all incorporate the diverse cultures combined. I would like the piece to embody the mixed identity of many black Britons.It is also a chance to uplift and celebrate young people. '
+

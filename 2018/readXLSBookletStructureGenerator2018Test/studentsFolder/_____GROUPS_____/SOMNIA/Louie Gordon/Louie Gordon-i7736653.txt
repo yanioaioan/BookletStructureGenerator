@@ -1,0 +1,13 @@
+name: 'Louie Gordon'	'i7736653'
+
+email: 'LJVGordon@gmail.com'
+phone: '7805491022'
+
+affiliation: 'As part of a group'
+projectname: 'SOMNIA'
+
+description: 
+'Somnia is an abstract music video created in full CG, with a motion captured dancer. A headless lady moves through her repetitious daily life as the surrounding world comes alive around her. With heavy influence from contemporary artists such as Bonobo and Jon Hopkins. Through a combination of subtle FX and realistic environments we created a believable world and an engaging sequence - pushing what the three of us could produce in both quality and quantity.'
+
+skills :'LookDev , Generalist , Rendering , Modelling'
+software: 'Maya, Substance Package ,  Photoshop , Redshift , Marvellous Designer , Houdini , Nuke'

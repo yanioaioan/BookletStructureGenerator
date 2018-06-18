@@ -1,0 +1,15 @@
+name: 'Alex Cowell'	'i7460122'
+
+email: 'alex.cowell@outlook.com'
+phone: '7935452939'
+
+url: 'https://vimeo.com/alexcowell'
+
+affiliation: 'As part of a group'
+projectname: 'Stretch Goals'
+
+description: 
+'Stretch Goals is a 3D platformer in the style of classic Nintendo 64 titles, developed in Unreal, following the adventures of an alien who has crash-landed on a foreign planet. Collect goo throughout the level to increase your jumping capabilities, enabling you to reach new heights, find the missing pieces of your ship, and fly back home.'
+
+skills :'Unreal Programming, Pipeline Management, Lighting, Gameplay Mechanics, Effects'
+software: 'Unreal Engine 4, Houdini, Maya, Substance Painter'

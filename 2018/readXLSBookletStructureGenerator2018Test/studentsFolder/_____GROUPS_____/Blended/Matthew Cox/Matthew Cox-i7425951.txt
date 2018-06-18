@@ -1,0 +1,13 @@
+name: 'Matthew Cox'	'i7425951'
+
+email: 'mattdcox@outlook.com'
+phone: '07857 542 662'
+
+affiliation: 'As part of a group'
+projectname: 'Blended'
+
+description: 
+"Our piece is a horror parody, inspired mainly by the Saw films, where two fruit are pitted against each other whilst hanging over a blender.  We took inspiration from various children's shows too, having cute characters dropped into this situation hopefully makes the piece brutal yet funny."
+
+skills :'Modelling, Texturing, Rigging, Lighting, Compositing'
+software: 'Maya, VRay, Quixel, Photoshop, Nuke, Houdini'

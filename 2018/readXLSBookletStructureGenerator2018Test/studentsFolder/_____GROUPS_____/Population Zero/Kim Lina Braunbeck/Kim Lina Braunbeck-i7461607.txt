@@ -1,0 +1,13 @@
+name: 'Kim Lina Braunbeck'	'i7461607'
+
+email: 'braunbeckkim@gmail.com'
+phone: '447731506103'
+
+affiliation: 'As part of a group'
+projectname: 'Population Zero'
+
+description: 
+"Population Zero is a short, animated story about an astronaut's journey into death. After being abandoned on a space station, the story shows an abstract interpretation of the last moments of the protagonist's life and the subsequent conclusion of it.  \nInstead of relying on dialogue, we aimed to navigate the narrative by using the environment, camera movements and atmosphere. It was important for us to create a piece that is able to be interpreted differently dependent on the viewer, while being contained within an overarching narrative.\n"
+
+skills :'Animation, Lighting, LookDev, Compositing'
+software: 'Maya, Substance Painter, Nuke'

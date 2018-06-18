@@ -1,0 +1,10 @@
+name: 'Edward Morgan'	'i7437098'
+
+email: 'eddymorgan1000@gmail.com'
+affiliation: 'As an individual'
+projectname: 'Tranquillity'
+
+description: 
+'Tranquillity is my 3D environmental piece that aims to inspire feelings of calmness and serenity. '
+
+software: 'Maya 2017, Zbursh, Plant Factory Producer 2016, V-ray'
