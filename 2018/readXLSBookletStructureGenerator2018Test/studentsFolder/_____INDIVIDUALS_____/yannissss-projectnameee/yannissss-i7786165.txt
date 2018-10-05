@@ -1,0 +1,13 @@
+name: 'yannissss'	'i7786165'
+
+email: 'yanioaioan@hotmail.com'
+phone: '7845595151'
+
+affiliation: 'As an individual'
+projectname: 'projectnameee'
+
+description: 
+'blalba'
+
+skills :'modelling software dev'
+software: 'maya houdini '

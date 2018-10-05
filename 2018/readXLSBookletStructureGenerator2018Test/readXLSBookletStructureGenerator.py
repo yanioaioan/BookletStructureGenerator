@@ -60,6 +60,9 @@ photosPath=raw_input("Please Give the absolute path to the photos: such as '/pub
 #excelFile="/public/bin/yanScripts/excel/DegreeShow2017.xlsx"
 #photosPath="/public/bin/yanScripts/photos"
 
+#excelFile="/home/yioannidis/Downloads/BookletStructureGenerator/2018/readXLSBookletStructureGenerator2018Test/excel/Booklet2018-Downloaded.xlsx"
+#photosPath="/home/yioannidis/Downloads/BookletStructureGenerator/2018/readXLSBookletStructureGenerator2018Test/photos/Work_Collector"
+
 df = pandas.read_excel(open(excelFile,'rb'), sheetname='Sheet1')
 #print the column names
 #print df.columns
@@ -93,6 +96,7 @@ for i in df.index:
   sumbissions.append(row)
   #print i
 
+
 #create outter folder named "studentsFolders"
 cwd = os.getcwd()
 outterStudentsFolder=os.path.join(cwd,"studentsFolder")
@@ -102,12 +106,84 @@ groupsStudentsFolder=os.path.join(outterStudentsFolder,"_____GROUPS_____")
 assure_path_exists(groupsStudentsFolder)
 print groupsStudentsFolder
 
+
+def recursive_glob(treeroot, pattern):
+    results = []
+    for base, dirs, files in os.walk(treeroot):
+        goodfiles = fnmatch.filter(files, pattern)
+        results.extend(os.path.join(base, f) for f in goodfiles)
+    return results
+
 individualsStudentsFolder=os.path.join(outterStudentsFolder,"_____INDIVIDUALS_____")
 assure_path_exists(individualsStudentsFolder)
 print individualsStudentsFolder
 
 
 import unicodedata
+
+#Collect inumbers to check whether there are inumbers in the project photos folder submitted,
+#that don't correspond to the submission inumbers on the booklet information excel sheet
+#all inumbers submtitted in the excel
+excellInumbers=[]
+for row in sumbissions:
+    timestamp,name,inumber,email,phone,url,affiliation,projectname,description,skills,software = row[0],row[1],row[2],row[3],row[4],row[5],row[6],row[7],row[8],row[9],row[10]
+    excellInumbers.append(((inumber)).encode('utf-8'))
+print  'excellInumbers',excellInumbers
+
+t=[f for f in os.listdir(photosPath) if re.match(r'.*'+str('i')+'.*_.*', f)]
+inumbersDetectedInPhotosPath = []
+for i in t:
+    print i
+    inumbersDetectedInPhotosPath.append(i.split('_')[0])
+
+print '\ninumbersDetectedInPhotosPath\n',inumbersDetectedInPhotosPath
+
+suspiciousInumberMisMatchBetweenProjectPhotosAndBookletInfo=[]
+#detect the inumbers that have been correctly submitted as part of the name of the project photos BUT NOT correctly submitted as part of the booklet info submission
+for inum in inumbersDetectedInPhotosPath:
+    if (inum not in excellInumbers) and (inum not in suspiciousInumberMisMatchBetweenProjectPhotosAndBookletInfo):#i number not detected in the booklet sumbission excel sheet AND not already in suspiciousInumberMisMatchBetweenProjectPhotosAndBookletInfo list, then add it for further investigation
+        suspiciousInumberMisMatchBetweenProjectPhotosAndBookletInfo.append(inum)
+
+groupMembersThaHaveNotSubmittedAnyProjectFilesThemselves=[]
+#detect the inumbers that have NOT been correctly submitted as part of the name of the project photos BUT correctly submitted as part of the booklet info submission
+for inum in excellInumbers:
+    if (inum not in inumbersDetectedInPhotosPath) and (inum not in groupMembersThaHaveNotSubmittedAnyProjectFilesThemselves):#i number not detected in the booklet sumbission excel sheet AND not already in suspiciousInumberMisMatchBetweenProjectPhotosAndBookletInfo list, then add it for further investigation
+        print inum,(inum not in inumbersDetectedInPhotosPath)
+        groupMembersThaHaveNotSubmittedAnyProjectFilesThemselves.append(inum)
+
+
+#if not empty
+if suspiciousInumberMisMatchBetweenProjectPhotosAndBookletInfo:
+  print '\nAttention possible WRONG inumbers sumbitted\n as part of the excel booklet info that don\'t match the project photos inumbers.\nPlease, investigate further inumbers sumbitted'
+  print 'Please investigate submissions of the following inumbers\n\n'
+
+  print '----------------------------------------------------------------------------------------------'
+  print '----------------------------------------------------------------------------------------------'
+  print '     INUMBER ERRORS IN BOOKLET SUBMISSION - INVESTIGATE THE FOLLOWING \'%d\' INUMBER SUBMISSIONS'%(len(suspiciousInumberMisMatchBetweenProjectPhotosAndBookletInfo))
+  print '----------------------------------------------------------------------------------------------'
+  print '----------------------------------------------------------------------------------------------'
+  counter = 1
+  for i in suspiciousInumberMisMatchBetweenProjectPhotosAndBookletInfo:
+      print counter,')  !!!!!-Investigate booklet submission of -->',i,'-!!!!!\n'
+      counter+=1
+  print '\nAlso check groupMembersThaHaveNotSubmittedAnyProjectFilesThemselves:\n'
+  print 'double check booklet submissions of the follwoing inumbers too are indeed members of a groups that haven\'t submitted project photos because another group member did!'
+  print groupMembersThaHaveNotSubmittedAnyProjectFilesThemselves
+
+
+  file = open(outterStudentsFolder+str('/ATTENTION.txt'),"w")
+  for i in suspiciousInumberMisMatchBetweenProjectPhotosAndBookletInfo:
+    file.write('!!!!!-Investigate booklet submission of -->%s-!!!!!, inumber possibly mistyped\n'%(i))
+  file.close()
+
+
+'''
+for inumber in excellInumbers:
+  print 'Testing inumber-->..',str(inumber)
+  t=[f for f in os.listdir(photosPath) if re.match(r'.*'+str(inumber)+'.*', f)]
+  print 'matched',t
+exit()
+'''
 
 for row in sumbissions:#each row
     #for rowElement in row:#individual elements of each row
@@ -219,13 +295,11 @@ for row in sumbissions:#each row
 
       for file in filesMatched:
 
-          #print localImages
-          imagepath=dir = os.path.join(os.path.abspath(photosPath),file)
+            #print localImages
+            imagepath=dir = os.path.join(os.path.abspath(photosPath),file)
 
-          print imagepath
-          shutil.copy2(imagepath, localImages)
-
-
+            print imagepath
+            shutil.copy2(imagepath, localImages)
 
 
       studentFileDescriptionName="%s-%s.txt"%(name,inumber)
@@ -254,14 +328,62 @@ for row in sumbissions:#each row
       file.close()
 
 
+#Check folders not having images
+import os,glob
+
+empty_dirs = []
+for root, dirs, files in os.walk(outterStudentsFolder):
+   newpath = ''
+   noImagesAtAllInProject = 1
+
+   if not len(dirs) and not len(files):
+      print '\nroot',root
+      groupProjectPath=root.split('/')
+      newpath = ''
+      for i in range(len(groupProjectPath)-2):
+          newpath += str(groupProjectPath[i])+'/'
+      print '\nnewpath',newpath
 
 
+      noImagesAtAllInProject=1
+      import fnmatch
+      matches = []
 
+      matchesjpg = recursive_glob(newpath,'*.jpg')
+      matchespng = recursive_glob(newpath,'*.png')
+      matchesJPG = recursive_glob(newpath,'*.JPG')
+      matchesPNG = recursive_glob(newpath,'*.PNG')
+      matchesjpeg = recursive_glob(newpath,'*.jpeg')
+      matchesJPEG = recursive_glob(newpath,'*.JPEG')
 
+      if matchesjpg:
+          noImagesAtAllInProject=0
+          print i
 
+      elif matchespng:
+          noImagesAtAllInProject=0
+          print i
 
+      elif matchesJPG:
+          noImagesAtAllInProject=0
+          print i
 
+      elif matchesPNG:
+          noImagesAtAllInProject=0
+          print i
+      elif matchesjpeg:
+          noImagesAtAllInProject=0
+          print i
 
+      elif matchesJPEG:
+          noImagesAtAllInProject=0
+          print i
+
+      else:
+          print '\nNo images in this project at all -->%s\n'%(newpath)
+          file = open(outterStudentsFolder+str('/ATTENTION.txt'),"a")
+          file.write('\nInvestigate Project %s, as there are no images at all there (ex. project title mistyping or anything really / Email the corresponding students \n'%(newpath))
+          file.close()
 
 
 #for s in sumbissions:#list holding all submission
