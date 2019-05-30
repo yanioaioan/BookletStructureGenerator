@@ -1,0 +1,15 @@
+name: 'Jake Cross'	'i7620079'
+
+email: 'jakehtc22@gmail.com'
+phone: '7736773913'
+
+url: 'https://www.artstation.com/jakecross'
+
+affiliation: 'As part of a group'
+projectname: 'Rose'
+
+description: 
+'Rose has dementia. Through the power of music she is able to reconnect to who she was and as a result is momentarily relieved of illness. The piece was inspired by our group members personal experience of family members with the disease as well as our desire to bring further attention to potential treatments. '
+
+skills :'"Modelling", "UV", "Texturing", "Scripting", "Shading", "Lighting", "Rendering",'
+software: '"Maya", "Substance Painter", "Substance Designer", "Redshift", "Plant Factory", "Photoshop", "xGen",'

@@ -1,0 +1,15 @@
+name: 'Ollie Williams'	'i7426086'
+
+email: 'ojrwilliams97@gmail.com'
+phone: '447464792539'
+
+url: 'https://www.linkedin.com/in/ollie-williams/'
+
+affiliation: 'As part of a group'
+projectname: 'Aether'
+
+description: 
+"An astronaut attempts to cure his crewmates of a deadly alien pathogen contracted during a mission to one of Saturn's moons. The on-board AI is faced with a moral dilema - destroy the dangerous organism, and the infected along with it, or risk contagion of the human race. "
+
+skills :'"Effects", "Lookdev", "Modelling", "Simulations", "Lighting"'
+software: 'Houdini, Maya, Nuke, Substance Painter, Vray'

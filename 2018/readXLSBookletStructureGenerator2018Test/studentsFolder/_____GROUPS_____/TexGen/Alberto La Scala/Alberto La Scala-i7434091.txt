@@ -1,0 +1,15 @@
+name: 'Alberto La Scala'	'i7434091'
+
+email: 'albelax94@gmail.com'
+phone: '7778662173'
+
+url: 'github.com/albelax'
+
+affiliation: 'As part of a group'
+projectname: 'TexGen'
+
+description: 
+'We propose the implementation of a software that aims at speeding up the work-flow of texture artists and that can help generalists to quickly generate texture maps without having to use multiple programs and complex procedures. You would submit one image and then six texture maps (diffuse, normal, roughness, metallic, AO & displacement) can be generated and tweaked using the program.'
+
+skills :'Software Development'
+software: 'C++, Qt'

@@ -1,0 +1,15 @@
+name: 'Matty Jennings'	'i7461197'
+
+email: 'mattyjjennings@outlook.com'
+phone: '7586277444'
+
+url: 'https://www.artstation.com/matthewjennings'
+
+affiliation: 'As part of a group'
+projectname: 'Lost in a Hat'
+
+description: 
+"A short comedy animation about youngster Alex Midcalf who receives a magical hat giving him with the ability to teleport. After using for the most mundane and lazy things he discovers that it can also travel through time... The aim was to bring to life those silly intentions we don't like to think we would do with such power (but definitely would)"
+
+skills :'Animation, Rigging, Environment Artist'
+software: 'Maya 2016, Substance Painter, SpeedTree, Zbrush'

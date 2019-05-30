@@ -1,0 +1,15 @@
+name: 'Claire Crawford'	'i7426501'
+
+email: 'claire.crawford@aol.co.uk'
+phone: '7787408294'
+
+url: 'http://clairecrawford.gallery'
+
+affiliation: 'As an individual'
+projectname: 'Space-ial Interests'
+
+description: 
+'Space-ial Interests is a 3D illustration about a curious, junk collecting alien with an unusual fascination - Earth! A humorous exploration of how we all have our own unique interests, this character driven piece depicts the life of an inquisitive, enthusiastic collector through their environment. My aims in completing this project were to produce 2D concepts which translated fluidly into 3D, and to create a new or unusual depiction of an alien environment, suited to the functionality of the character. '
+
+skills :'Character Design, Environment Design, Modelling, Texturing, Matte Painting'
+software: 'Photoshop, Maya, ZBrush, Substance Painter, After Effects, Premier'

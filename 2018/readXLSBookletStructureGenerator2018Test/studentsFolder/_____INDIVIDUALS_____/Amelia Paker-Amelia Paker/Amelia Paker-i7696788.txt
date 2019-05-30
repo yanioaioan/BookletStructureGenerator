@@ -1,0 +1,15 @@
+name: 'Amelia Paker'	'i7696788'
+
+email: 'alpaker@hotmail.co.uk'
+phone: '7531289417'
+
+url: 'www.ameliapaker.com'
+
+affiliation: 'As an individual'
+projectname: 'Amelia Paker'
+
+description: 
+'Since starting university I have learned numerous skills relating to both my studies and personal development. Not only have I enhanced my practical skills in areas such as rigging, modelling, texturing and animation, but also my ability to solve problems, work efficiently and calmly under pressure and the importance of teamwork and clear communication.  During my degree I have taken on other tasks such as directing a small group during my second year, as well as completing several scripting and programming assignments. I have specialised in rigging for most of my degree and have a strong interest in movement and anatomy, and a passion for all things creature and character related.'
+
+skills :'Rigging, Modelling, Animation, Texturing'
+software: 'Maya, Zbrush, Substance Painter, Photoshop'

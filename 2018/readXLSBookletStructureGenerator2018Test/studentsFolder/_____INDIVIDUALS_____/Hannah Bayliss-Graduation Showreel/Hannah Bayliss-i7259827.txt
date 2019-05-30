@@ -1,0 +1,13 @@
+name: 'Hannah Bayliss'	'i7259827'
+
+email: 'hannah.c.bayliss@gmail.com'
+url: 'hannahbayliss.com'
+
+affiliation: 'As an individual'
+projectname: 'Graduation Showreel'
+
+description: 
+'A short reel of projects developed during my time at Bournemouth University. This reel highlights my work as a technical artist with an emphasis on lighting, look development, scripting and problem solving.'
+
+skills :'LookDev, Lighting, Scripting, Modelling, Groom'
+software: 'Maya, Vray, Arnold'

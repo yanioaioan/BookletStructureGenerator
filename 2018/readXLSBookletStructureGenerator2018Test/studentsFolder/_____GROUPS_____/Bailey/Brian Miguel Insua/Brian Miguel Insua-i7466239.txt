@@ -1,0 +1,15 @@
+name: 'Brian Miguel Insua'	'i7466239'
+
+email: 'brian.insua@gmail.com'
+phone: '7826156227'
+
+url: 'www.brianinsua.com'
+
+affiliation: 'As part of a group'
+projectname: 'Bailey'
+
+description: 
+'A little girl, Bailey, dreams of becoming a scientist, experimenting on her pet chameleon: Charlie (well in her mind anyway). Charlie just wants his food. \n\nIn her imagination, her room is transformed into an evil laboratory, where she conducts her experiments on poor Charlie. At the pinnacle of her experiments, she is interrupted by either her mother or grandmother, shattering her imaginary world and bringing them both back down to reality. '
+
+skills :'FX, Pipeline, Rendering, Compositing'
+software: 'Houdini, Maya, Nuke'

@@ -1,0 +1,13 @@
+name: 'Brandon Pascal'	'i7259915'
+
+email: 'bpascal125@gmail.com'
+phone: '7910650187'
+
+affiliation: 'As part of a group'
+projectname: 'Rotten Luck '
+
+description: 
+'A stop-motion inspired short about a bug having a bad day. An exploration into using stop-motion aesthetic with the advantages of CG.'
+
+skills :'Modelling, LookDev, Texturing, Lighting, Compositing '
+software: 'Maya, Mari, Substance Designer, Marvelous Designer, Nuke, Ptgui, Photoshop'

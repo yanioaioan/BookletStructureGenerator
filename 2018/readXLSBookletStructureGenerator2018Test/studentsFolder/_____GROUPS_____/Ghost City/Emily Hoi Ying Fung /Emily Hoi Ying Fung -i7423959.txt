@@ -1,0 +1,15 @@
+name: 'Emily Hoi Ying Fung '	'i7423959'
+
+email: 'emily_hoi_ying@hotmail.com'
+phone: '7583586794'
+
+url: 'https://vimeo.com/emilyfung'
+
+affiliation: 'As part of a group'
+projectname: 'Ghost City'
+
+description: 
+'"Ghost City" is a semi-realistic environment piece which depicts atmospheric scenery, inspired by the now demolished Kowloon Walled City. Set in Hong Kong, it was once considered the most densely populated place on Earth. \n"Ghost City" leads you through the unsettling alleys, to the warmth of a  common household. This project captures that despite its lawless reputation, it was simply a home for the people. '
+
+skills :'Effects, Lookdev, Modelling, Lighting, Pipeline'
+software: 'Maya, Substance Designer, Substance Painter, Renderman, Houdini, Nuke, Marvelous Designer, Zbrush '

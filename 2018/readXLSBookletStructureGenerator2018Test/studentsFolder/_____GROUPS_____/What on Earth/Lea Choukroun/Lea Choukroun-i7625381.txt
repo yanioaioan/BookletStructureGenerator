@@ -1,0 +1,15 @@
+name: 'Lea Choukroun'	'i7625381'
+
+email: 'lea.choukroun03@gmail.com'
+phone: '7874318971'
+
+url: ' https://leachoukroun03.wixsite.com/lc-art'
+
+affiliation: 'As part of a group'
+projectname: 'What on Earth'
+
+description: 
+' What on Earth  is a short animation about June, an alien astronaut on mission to Earth. This story will take us on her passionate journey to discover our planet and humans... This piece is intended to be light-hearted and surprising with an eclectic style, combining 3D and motion graphic inspired animation.'
+
+skills :'Concept art, Character design, Character modelling, Rigging, Animation '
+software: 'Maya, Photoshop , Premiere Pro'

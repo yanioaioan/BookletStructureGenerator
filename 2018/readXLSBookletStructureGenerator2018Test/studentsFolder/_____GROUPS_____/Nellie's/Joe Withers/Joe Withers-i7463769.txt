@@ -1,0 +1,15 @@
+name: 'Joe Withers'	'i7463769'
+
+email: 'joewithers96@gmail.com'
+phone: '(+44)7790 186201'
+
+url: 'jw0z96.github.io'
+
+affiliation: 'As part of a group'
+projectname: "Nellie's"
+
+description: 
+'"Nellies is a two-minute-long full-CG character-driven short film. \n\nIt is a short story about James, a young depressed accountant who finds a new outlook on his life after meeting Nellie an elderly lady who runs a tiny bakery. \n\nThe narrative of the piece is based on a concept, where we found that todays society, especially in big city metropolis, more frequently forgets about the small beautiful things in life. Simultaneously, they are busy working overtime in jobs they are not passionate about. Nellies is meant to address these findings with light-hearted and sometimes comedic moments."'
+
+skills :'Pipeline Development, Software Development, Rigging'
+software: 'Maya, RenderMan 21, Nuke'

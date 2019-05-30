@@ -1,0 +1,15 @@
+name: 'Jake Bishop'	'i7673069'
+
+email: 'Jakesb1996@gmail.com'
+phone: '7943385246'
+
+url: 'www.JakeBishop.co.uk'
+
+affiliation: 'As part of a group'
+projectname: 'Lost in a Hat'
+
+description: 
+"A short comedy animation about youngster Alex Midcalf who receives a magical hat giving him with the ability to teleport. After using for the most mundane and lazy things he discovers that it can also travel through time... The aim was to bring to life those silly intentions we don't like to think we would do with such power (but definitely would)"
+
+skills :'Director, LookDev, Environments , Cinematography'
+software: 'Maya, Vray, Nuke, After Effects, Reality Capture'

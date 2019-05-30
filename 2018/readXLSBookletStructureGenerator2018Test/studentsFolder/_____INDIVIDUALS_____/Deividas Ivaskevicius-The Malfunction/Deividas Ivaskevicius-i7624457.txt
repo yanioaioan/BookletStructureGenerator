@@ -1,0 +1,15 @@
+name: 'Deividas Ivaskevicius'	'i7624457'
+
+email: 'ivaskeviciusdeividas@gmail.com'
+phone: '7514205414'
+
+url: 'https://www.artstation.com/ivaskeviciusdeividas'
+
+affiliation: 'As an individual'
+projectname: 'The Malfunction'
+
+description: 
+'"The Malfunction" is a short live action VFX piece about a lonely engineer boy constructing his personal Robot in a warehouse when the unexpectedly the robots core malfunctions. The short is inspired by the slow-motion shots of Iron Man 3 and this was my attempt at replicating that effect/'
+
+skills :'"Dynamics", "Lighting", "Modelling", "Rendering", "LookDev".'
+software: 'Maya, Houdini, Substance Painter, Nuke, Photoshop, Premiere.'

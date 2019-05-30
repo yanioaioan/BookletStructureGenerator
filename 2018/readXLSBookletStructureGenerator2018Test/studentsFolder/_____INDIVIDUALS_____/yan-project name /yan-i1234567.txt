@@ -1,0 +1,15 @@
+name: 'yan'	'i1234567'
+
+email: 'a@hotmail'
+phone: '7123456789'
+
+url: 'website'
+
+affiliation: 'As an individual'
+projectname: 'project name '
+
+description: 
+'project description ........................project description ........................project description ........................project description ........................project description ........................project description ........................project description ........................project description ........................project description ........................project description ........................project description ........................project description ........................project description ........................project description ........................project description ........................'
+
+skills :'Rigging, Modelling, Software Development, Animation, LookDev, Character Design'
+software: 'Nuke Maya Houdini'

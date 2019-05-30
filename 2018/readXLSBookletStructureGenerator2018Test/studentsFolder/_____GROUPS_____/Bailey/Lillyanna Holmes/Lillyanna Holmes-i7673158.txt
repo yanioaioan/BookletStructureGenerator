@@ -1,0 +1,15 @@
+name: 'Lillyanna Holmes'	'i7673158'
+
+email: 'lillyholmes96@gmail.com'
+phone: '7930531069'
+
+url: 'https://www.linkedin.com/in/lillyanna-holmes-457426153/'
+
+affiliation: 'As part of a group'
+projectname: 'Bailey'
+
+description: 
+'A little girl, Bailey, dreams of becoming a scientist, experimenting on her pet chameleon: Charlie (well in her mind anyway). Charlie just wants his food. \n\nIn her imagination, her room is transformed into an evil laboratory, where she conducts her experiments on poor Charlie. At the pinnacle of her experiments, she is interrupted by either her mother or grandmother, shattering her imaginary world and bringing them both back down to reality.'
+
+skills :'Groom, Creature Effects, Look Dev, Modelling, Rigging'
+software: 'Maya, Substance Painter, Nuke'

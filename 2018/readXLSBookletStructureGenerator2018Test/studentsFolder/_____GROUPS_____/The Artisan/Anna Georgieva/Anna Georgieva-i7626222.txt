@@ -1,0 +1,11 @@
+name: 'Anna Georgieva'	'i7626222'
+
+email: 'ageorgieva1995@gmail.com'
+affiliation: 'As part of a group'
+projectname: 'The Artisan'
+
+description: 
+"The Artisan is a 45 second short, following a retired gourmet chef in his kitchen as he prepares to cook his Asian inspired dish. The piece aims to portray the sensations experienced within the kitchen environment. Using experimental effects to symbolise the smells and flavours of the ingredients as well as the Chef's synchronised movement to music to visualise the creative sensation of cooking, in an enriching way for the audience.  "
+
+skills :'Pre-production, Modelling, Texturing, Cloth and Hair Simulation, Rigging'
+software: 'Maya, Substance Painter/Designer, Marvelous Designer'

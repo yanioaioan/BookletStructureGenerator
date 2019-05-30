@@ -1,0 +1,15 @@
+name: 'Lara James'	'i7467331'
+
+email: 'lara.james@btopenworld.com'
+phone: '7504987029'
+
+url: 'linkedin.com/in/lara-james/'
+
+affiliation: 'As part of a group'
+projectname: 'The Fountain of Youth'
+
+description: 
+'Our story follows a ten year old girl on her adventure to discover the Fountain of Youth. Her goal is to restore her old tattered toy rabbit, which once belonged to her sister, to its former condition. Our aim was to portray a simple but meaningful narrative using little animation, focusing mainly on facial expressions and camera movement to tell the story. We took inspiration from films which use existing legends as the base for their narrative - an approach often followed by Disney, which encouraged us to adopt a Disney-inspired aesthetic.'
+
+skills :'Character Design, Environment Design, Modelling, Texturing, Animation'
+software: 'Maya, ZBrush, Substance Painter, V-Ray, Premiere Pro'

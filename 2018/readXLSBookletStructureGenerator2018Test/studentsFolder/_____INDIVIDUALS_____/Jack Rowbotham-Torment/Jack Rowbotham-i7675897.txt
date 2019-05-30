@@ -1,0 +1,15 @@
+name: 'Jack Rowbotham'	'i7675897'
+
+email: 'jack@jrow.co.uk'
+phone: '7526755774'
+
+url: 'jrow.co.uk'
+
+affiliation: 'As an individual'
+projectname: 'Torment'
+
+description: 
+'Torment is a CG short film created by myself that portrays a cars escape from brutality and torture; endured through its time in captivity. Taking inspiration from Stephen Kings Christine, my goal was to create a visual piece adhering to both cinematic and commercial conventions, personifying and injecting life into the subject of a car with a technical emphasis on lighting and effects. I used this project to test myself and push my limits of what could be achieved alone; stepping out of my comfort zone and learning new skills and techniques to create a visually entertaining piece. '
+
+skills :'Effects,\nLighting,\nCompositing,\nTexturing/ Shading,\nEnvironment/ Hard Surface Modelling'
+software: 'Maya,\nV-Ray,\nNuke,\nHoudini,\nSubstance Painter,\nPhotoshop/ Premiere Pro'

@@ -1,0 +1,11 @@
+name: 'Fatema Muttar'	'i7447144'
+
+email: 'fatumiiee@gmail.com'
+affiliation: 'As part of a group'
+projectname: 'Nihil'
+
+description: 
+'Nihil" is a short animated story that follows the mission of B-RU (Botany Re-vegetation Unit). Sent by the National Space and Exploration Unit to terraform Nihirian, an arid but fertile planet, instilling it with life in preparation towards making it humans next home Planet. Towards the end, little B-RU questions whether it should allow for the relocation of humans to the Eden it has created; after all the disregard for nature on Earth. '
+
+skills :'Character Design, Cinematography, Modelling, Layout,  Animation, Editing'
+software: 'Photoshop, Maya, Zbrush, Premiere Pro, Houdini'

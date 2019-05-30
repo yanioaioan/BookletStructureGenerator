@@ -1,0 +1,15 @@
+name: 'Phillip Harker'	'i7461436'
+
+email: 'harker.phillip@gmail.com'
+phone: '7975718280'
+
+url: 'noeyedwonder.artstation.com'
+
+affiliation: 'As part of a group'
+projectname: 'Dismembered'
+
+description: 
+'"Dismembered" was our attempt to recreate the look and feel of a dark fantasy game, with a humorous twist. Play as "the Graverobber" as he gains the ability to swap limbs with the dead, and fights to free his new friend, "the Shadow", a world-ending evil spirit, who was sealed away for a very good reason.'
+
+skills :'Concept Art, Illustration, Game Design, Storytelling'
+software: 'Adobe Photoshop, Unreal Engine'

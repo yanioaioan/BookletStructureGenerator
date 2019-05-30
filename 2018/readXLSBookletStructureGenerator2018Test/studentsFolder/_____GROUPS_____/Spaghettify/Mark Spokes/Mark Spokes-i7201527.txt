@@ -1,0 +1,15 @@
+name: 'Mark Spokes'	'i7201527'
+
+email: 'mark_spokes@hotmail.co.uk'
+phone: '07568 439584'
+
+url: 'https://www.linkedin.com/in/mark-spokes-333530142/'
+
+affiliation: 'As part of a group'
+projectname: 'Spaghettify'
+
+description: 
+"Spaghettify' is a 3D animated, Sci-fi/Comedy short starring Kevin, a layabout slob who lives alone in a filthy apartment. One night, when trying to reheat a spaghetti dinner, he leaves a metal fork in the microwave and subsequently rips a hole in time and space.  What follows is a hilarious, pasta filled thrill ride for all-ages. "
+
+skills :'Direction, Character Modelling, Character Animation and Layout'
+software: 'Maya, Zbrush, and Adobe package'

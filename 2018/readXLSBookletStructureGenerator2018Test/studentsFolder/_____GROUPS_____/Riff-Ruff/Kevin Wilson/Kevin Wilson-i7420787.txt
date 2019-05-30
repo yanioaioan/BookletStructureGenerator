@@ -1,0 +1,13 @@
+name: 'Kevin Wilson'	'i7420787'
+
+email: 'kevin.wilsoncg@gmail.com'
+phone: '7873240046'
+
+affiliation: 'As part of a group'
+projectname: 'Riff-Ruff'
+
+description: 
+'Riff-Ruff is a short animation focusing on a lonely, homeless robot and puppy coming together through their shared love for music. The short aims to create atmospheric visuals whilst demonstrating a heart-warming connection between the protagonists. '
+
+skills :'Project Management, Environment Modelling, Rigging, Lighting, Compositing'
+software: 'Maya, V-Ray, Nuke'

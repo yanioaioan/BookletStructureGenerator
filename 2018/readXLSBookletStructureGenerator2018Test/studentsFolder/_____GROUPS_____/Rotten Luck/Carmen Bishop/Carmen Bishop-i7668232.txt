@@ -1,0 +1,13 @@
+name: 'Carmen Bishop'	'i7668232'
+
+email: 'carmen.bishop@live.co.uk'
+phone: '7827665424'
+
+affiliation: 'As part of a group'
+projectname: 'Rotten Luck'
+
+description: 
+'A stop-motion inspired short about a bug having a bad day. An exploration into using stop-motion aesthetic with the advantages of CG.'
+
+skills :'Story, Cinematography, Animation, FX'
+software: 'Maya, Vray'

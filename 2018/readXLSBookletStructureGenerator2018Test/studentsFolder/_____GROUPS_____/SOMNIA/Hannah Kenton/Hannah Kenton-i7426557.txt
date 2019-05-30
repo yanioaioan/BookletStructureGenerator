@@ -1,0 +1,15 @@
+name: 'Hannah Kenton'	'i7426557'
+
+email: 'h.kenton97@gmail.com'
+phone: '7929745637'
+
+url: 'https://www.linkedin.com/in/hannah-kenton-ba6baa133/'
+
+affiliation: 'As part of a group'
+projectname: 'SOMNIA'
+
+description: 
+'Somnia is an abstract music video created in full CG, with a motion captured dancer. A headless lady moves through her repetitious daily life as the surrounding world comes alive around her. With heavy influence from contemporary artists such as Bonobo and Jon Hopkins. Through a combination of subtle FX and realistic environments we created a believable world and an engaging sequence - pushing what the three of us could produce in both quality and quantity.'
+
+skills :'Generalist, Modelling, LookDev, Environments'
+software: 'Maya, Photoshop, Substance Painter, Substance Designer, Redshift, Nuke'

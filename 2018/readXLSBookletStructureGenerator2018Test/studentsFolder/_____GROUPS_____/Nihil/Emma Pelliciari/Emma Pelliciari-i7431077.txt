@@ -1,0 +1,13 @@
+name: 'Emma Pelliciari'	'i7431077'
+
+email: 'emma.pelliciari@gmail.com'
+phone: '7874319689'
+
+affiliation: 'As part of a group'
+projectname: 'Nihil'
+
+description: 
+'Please see Fatema Muttar Project Description'
+
+skills :'Modelling, Lighting, LookDev, Rendering, Compositing, Python Scripting'
+software: 'Maya, Houdini, Substance painter, Substance Designer, RedShift, Nuke '

@@ -1,0 +1,15 @@
+name: 'Alice Baglietto'	'i7436074'
+
+email: 'alicebaglietto@hotmail.com'
+phone: '447761872622'
+
+url: 'alicebagliettoart.turblr.com'
+
+affiliation: 'As an individual'
+projectname: 'U.F.O. - Unique Food Operation'
+
+description: 
+'U.F.O. is an educational game with targeted nutrition learning objectives, for kids aged about 7 years old. The players will find themselves in an imaginary planet populated with various aliments, whose nutritional information are shared by means of an interface. The players final goal is to compose a balanced diet with the available items and get the higher possible score.  '
+
+skills :'Scripting, Software Development, LookDev, Game Design'
+software: 'Unreal Engine 4, Autodesk Maya, Substance Painter, Adobe Photoshop'

@@ -1,0 +1,11 @@
+name: 'Robbie Brown'	'i7624382'
+
+email: 'robbie.brown3@ntlworld.com'
+affiliation: 'As part of a group'
+projectname: 'Rose'
+
+description: 
+'Rose has dementia. Through the power of music she is able to reconnect to who she was and as a result is momentarily relieved of illness. The piece was inspired by our group members personal experience of family members with the disease as well as our desire to bring further attention to potential treatments. '
+
+skills :'Animation, Environment Design'
+software: 'Maya, Zbrush, Substance, Adobe Suite'

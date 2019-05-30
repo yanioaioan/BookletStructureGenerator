@@ -1,0 +1,15 @@
+name: 'Jack Sainsbury'	'i7467356'
+
+email: 'JackSainsbury@hotmail.co.uk'
+phone: '7464627203'
+
+url: 'https://vimeo.com/jacksainsbury'
+
+affiliation: 'As part of a group'
+projectname: 'Dismembered'
+
+description: 
+'"Dismembered" was our attempt to recreate the look and feel of a dark fantasy game, with a humorous twist. Play as "the Graverobber" as he gains the ability to swap limbs with the dead, and fights to free his new friend, "the Shadow", a world-ending evil spirit, who was sealed away for a very good reason.'
+
+skills :'Technical Artist, Lighting, Programming, FX, Cinematography'
+software: 'Unreal Engine, Unity, Maya, Photoshop, C++'

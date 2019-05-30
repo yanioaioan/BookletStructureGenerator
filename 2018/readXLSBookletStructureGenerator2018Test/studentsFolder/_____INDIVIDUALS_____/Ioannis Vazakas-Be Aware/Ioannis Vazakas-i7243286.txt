@@ -1,0 +1,11 @@
+name: 'Ioannis Vazakas'	'i7243286'
+
+email: 'ioannisvazakas@gmail.com'
+affiliation: 'As an individual'
+projectname: 'Be Aware'
+
+description: 
+'The main inspiration for this video was the Henri Cartier-Bressons photograph named that decisive moment. In addition with the art style of the MAD art magazine. This project revolves around the comedic outcome of tragic irony. Where the viewers have knowledge of something the character is not aware of. In this case the viewer is gradually presented, what is about to happen to him. From his tied shoe laces to the collapsing ceiling it goes from bad to worse. However, the worse has yet to come. '
+
+skills :'Pre-production, Modelling,'
+software: 'Autodesk Maya, Z-brush, Substance Painter, NukeX'

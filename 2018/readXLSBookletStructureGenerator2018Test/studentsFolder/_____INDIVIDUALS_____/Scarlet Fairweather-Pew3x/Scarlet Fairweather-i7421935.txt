@@ -1,0 +1,15 @@
+name: 'Scarlet Fairweather'	'i7421935'
+
+email: 'fairweather.scarlet@hotmail.co.uk'
+phone: '7415095865'
+
+url: 'Vimeo.com/scarletfairweather'
+
+affiliation: 'As an individual'
+projectname: 'Pew3x'
+
+description: 
+'I created a quirky target practice game as a part of my interactive showreel. '
+
+skills :'Game development, low poly modelling, texturing, lighting and VFX'
+software: 'Unreal Engine 4, Maya and Substance Painter '
